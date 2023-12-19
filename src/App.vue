@@ -1,5 +1,6 @@
 <script>
 import HeaderPet from './components/HeaderPet.vue';
+import BottomHeader from './components/BottomHeader.vue';
 
 export default {
   data() {
@@ -7,12 +8,14 @@ export default {
   },
   components: {
     HeaderPet,
+    BottomHeader,
   },
 };
 </script>
 
 <template>
   <HeaderPet></HeaderPet>
+  <BottomHeader></BottomHeader>
 </template>
 
 <style scoped></style>
