@@ -1,5 +1,18 @@
-<script></script>
+<script>
+import HeaderPet from './components/HeaderPet.vue';
 
-<template></template>
+export default {
+  data() {
+    return {};
+  },
+  components: {
+    HeaderPet,
+  },
+};
+</script>
+
+<template>
+  <HeaderPet></HeaderPet>
+</template>
 
 <style scoped></style>
