@@ -58,7 +58,7 @@ export default {
       justify-content: center;
 
       a {
-        color: #978f88;
+        color: #696767;
         text-decoration: none;
       }
 

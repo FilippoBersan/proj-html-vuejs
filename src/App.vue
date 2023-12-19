@@ -1,6 +1,7 @@
 <script>
 import HeaderPet from './components/HeaderPet.vue';
 import BottomHeader from './components/BottomHeader.vue';
+import JumbotronPet from './components/JumbotronPet.vue';
 
 export default {
   data() {
@@ -9,6 +10,7 @@ export default {
   components: {
     HeaderPet,
     BottomHeader,
+    JumbotronPet,
   },
 };
 </script>
@@ -16,6 +18,7 @@ export default {
 <template>
   <HeaderPet></HeaderPet>
   <BottomHeader></BottomHeader>
+  <JumbotronPet></JumbotronPet>
 </template>
 
 <style scoped></style>
