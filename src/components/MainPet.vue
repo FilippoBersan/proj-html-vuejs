@@ -5,6 +5,7 @@ import NewArrivals from './NewArrivals.vue';
 import BestSellers from './BestSellers.vue';
 import UserTestimonials from './UserTestimonials.vue';
 import NewsLetter from './NewsLetter.vue';
+import TipsTricks from './TipsTricks.vue';
 export default {
   data() {
     return {};
@@ -16,6 +17,7 @@ export default {
     BestSellers,
     UserTestimonials,
     NewsLetter,
+    TipsTricks,
   },
 };
 </script>
@@ -27,6 +29,7 @@ export default {
   <BestSellers></BestSellers>
   <UserTestimonials></UserTestimonials>
   <NewsLetter></NewsLetter>
+  <TipsTricks></TipsTricks>
 </template>
 
 <style scoped lang="scss"></style>
