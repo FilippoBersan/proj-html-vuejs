@@ -31,8 +31,13 @@ export default {
       <p>Call us : 1.800.123.4567</p>
     </div>
     <div class="icons">
-      <font-awesome-icon icon="fa-solid fa-box-archive" />
-      <font-awesome-icon icon="fa-solid fa-user" />
+      <a href="">
+        <font-awesome-icon icon="fa-solid fa-box-archive" />
+      </a>
+
+      <a href="">
+        <font-awesome-icon icon="fa-solid fa-user" />
+      </a>
     </div>
   </div>
 </template>
@@ -82,6 +87,10 @@ export default {
     display: flex;
     align-items: center;
     gap: 20px;
+
+    a {
+      color: black;
+    }
   }
 }
 </style>
