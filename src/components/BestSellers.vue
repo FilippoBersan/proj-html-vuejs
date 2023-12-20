@@ -23,7 +23,7 @@ export default {
     <div class="container-box-shop">
       <div class="slot-shop">
         <div class="box-shop">
-          <img src="/public/product-8-300x300.jpg" alt="" />
+          <img src="/public/product-21-400x400.jpg" alt="" />
         </div>
         <p>Transport cage</p>
         <p id="price">$25.00</p>
@@ -31,7 +31,7 @@ export default {
 
       <div class="slot">
         <div class="box">
-          <img src="/public/product-3-300x300.jpg" alt="" />
+          <img src="/public/product-20-400x400.jpg" alt="" />
         </div>
         <p>Dog leash</p>
         <p id="price">$25.00</p>
@@ -39,7 +39,7 @@ export default {
 
       <div class="slot">
         <div class="box">
-          <img src="/public/product-2-300x300.jpg" alt="" />
+          <img src="/public/product-16-400x400.jpg" alt="" />
         </div>
         <p>Animal transport cage</p>
         <div class="cont-price">
@@ -50,7 +50,7 @@ export default {
 
       <div class="slot">
         <div class="box">
-          <img src="/public/product-4-300x300.jpg" alt="" />
+          <img src="/public/product-11-400x400.jpg" alt="" />
         </div>
         <p>Colorful cat leash</p>
         <p id="price">$12.00</p>
@@ -132,6 +132,15 @@ export default {
   display: flex;
   justify-content: center;
   gap: 10px;
+
+  .box {
+    height: 300px;
+    width: 300px;
+
+    img {
+      height: 300px;
+    }
+  }
 
   p {
     text-align: center;
