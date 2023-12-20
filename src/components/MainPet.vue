@@ -7,6 +7,7 @@ import UserTestimonials from './UserTestimonials.vue';
 import NewsLetter from './NewsLetter.vue';
 import TipsTricks from './TipsTricks.vue';
 import ToysFood from './ToysFood.vue';
+import NewProduct from './NewProduct.vue';
 export default {
   data() {
     return {};
@@ -20,6 +21,7 @@ export default {
     NewsLetter,
     TipsTricks,
     ToysFood,
+    NewProduct,
   },
 };
 </script>
@@ -33,6 +35,7 @@ export default {
   <NewsLetter></NewsLetter>
   <TipsTricks></TipsTricks>
   <ToysFood></ToysFood>
+  <NewProduct></NewProduct>
 </template>
 
 <style scoped lang="scss"></style>
