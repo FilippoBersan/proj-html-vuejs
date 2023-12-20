@@ -20,8 +20,24 @@ import { faClock } from '@fortawesome/free-regular-svg-icons';
 
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
+import { faTruck } from '@fortawesome/free-solid-svg-icons';
+
+import { faDollarSign } from '@fortawesome/free-solid-svg-icons';
+
+import { faCreditCard } from '@fortawesome/free-solid-svg-icons';
+
 /* import custom  */
 
-library.add(faMagnifyingGlass, faBoxArchive, faUser, faMap, faClock, faCheck);
+library.add(
+  faMagnifyingGlass,
+  faBoxArchive,
+  faUser,
+  faMap,
+  faClock,
+  faCheck,
+  faTruck,
+  faDollarSign,
+  faCreditCard
+);
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');
