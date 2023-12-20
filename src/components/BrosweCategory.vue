@@ -22,9 +22,9 @@ export default {
   </div>
 
   <div class="boxes">
-    <div class="container-box">
-      <div class="slot">
-        <div class="box">
+    <div class="container-box-shop">
+      <div class="slot-shop">
+        <div class="box-shop">
           <img src="/public/product-8-300x300.jpg" alt="" />
         </div>
         <p>Bed(1)</p>
@@ -75,14 +75,14 @@ export default {
   }
 }
 
-.container-box {
+.container-box-shop {
   display: flex;
   justify-content: center;
   gap: 10px;
-  .slot {
+  .slot-shop {
     text-align: center;
   }
-  .box {
+  .box-shop {
     display: flex;
     background-color: #f9f5f2;
     height: 300px;

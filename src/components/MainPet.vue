@@ -2,6 +2,7 @@
 import BrosweCategory from './BrosweCategory.vue';
 import TypeFood from './TypeFood.vue';
 import NewArrivals from './NewArrivals.vue';
+import BestSellers from './BestSellers.vue';
 export default {
   data() {
     return {};
@@ -10,6 +11,7 @@ export default {
     BrosweCategory,
     TypeFood,
     NewArrivals,
+    BestSellers,
   },
 };
 </script>
@@ -18,6 +20,7 @@ export default {
   <BrosweCategory></BrosweCategory>
   <TypeFood></TypeFood>
   <NewArrivals></NewArrivals>
+  <BestSellers></BestSellers>
 </template>
 
 <style scoped lang="scss"></style>
