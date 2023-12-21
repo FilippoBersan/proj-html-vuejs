@@ -26,6 +26,13 @@ import { faDollarSign } from '@fortawesome/free-solid-svg-icons';
 
 import { faCreditCard } from '@fortawesome/free-solid-svg-icons';
 
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 /* import custom  */
 
 library.add(
@@ -37,7 +44,11 @@ library.add(
   faCheck,
   faTruck,
   faDollarSign,
-  faCreditCard
+  faCreditCard,
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faYoutube
 );
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');
