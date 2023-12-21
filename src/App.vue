@@ -4,6 +4,7 @@ import BottomHeader from './components/BottomHeader.vue';
 import JumbotronPet from './components/JumbotronPet.vue';
 import MainPet from './components/MainPet.vue';
 import FooterPet from './components/FooterPet.vue';
+import FooterBottom from './components/FooterBottom.vue';
 
 export default {
   data() {
@@ -15,6 +16,7 @@ export default {
     JumbotronPet,
     MainPet,
     FooterPet,
+    FooterBottom,
   },
 };
 </script>
@@ -25,6 +27,7 @@ export default {
   <JumbotronPet></JumbotronPet>
   <MainPet></MainPet>
   <FooterPet></FooterPet>
+  <FooterBottom></FooterBottom>
 </template>
 
 <style scoped></style>
